@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Aisle Chef MVP">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0071CE">
+    <title>Aisle Chef</title>
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <script src="flutter.js" defer></script>
+    <script>
+      // Standard Flutter web bootstrap for recent stable versions
+      window.addEventListener('load', function () {
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: { serviceWorkerVersion: null }, // disables SW caching during dev
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              appRunner.runApp();
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
