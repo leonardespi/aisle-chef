@@ -84,7 +84,7 @@ def populate_data():
             R(
                 "Spaghetti Carbonara",
                 ["italian", "classics", "pasta"],
-                "https://picsum.photos/seed/carbonara/800/600",
+                "assets/images/spagetti.jpg",
                 [
                     "Bring a large pot of salted water to a boil. Cook spaghetti until al dente.",
                     "In a bowl, whisk eggs and grated Parmesan.",
@@ -104,7 +104,7 @@ def populate_data():
             R(
                 "Chicken Tacos",
                 ["mexican", "quick"],
-                "https://picsum.photos/seed/tacos/800/600",
+                "assets/images/chicken_tacos.jpg",
                 [
                     "Season chicken with chili powder, cumin, salt.",
                     "Sauté chicken until cooked; slice.",
@@ -126,7 +126,7 @@ def populate_data():
             R(
                 "Vegan Chili",
                 ["vegan", "stew"],
-                "https://picsum.photos/seed/chili/800/600",
+                "assets/images/vega_chili.jpg",
                 [
                     "Sauté onion and garlic in olive oil until translucent.",
                     "Add spices, beans, crushed tomatoes, broth, and diced sweet potato.",
@@ -149,7 +149,7 @@ def populate_data():
             R(
                 "Salmon with Asparagus",
                 ["seafood", "healthy"],
-                "https://picsum.photos/seed/salmon/800/600",
+                "assets/images/salmon_with_asparagus.jpg",
                 [
                     "Preheat oven to 400°F / 205°C.",
                     "Toss asparagus with olive oil and salt; arrange on sheet pan.",
@@ -166,7 +166,7 @@ def populate_data():
             R(
                 "Classic Burger",
                 ["classics", "grill"],
-                "https://picsum.photos/seed/burger/800/600",
+                "assets/images/classic_burger.png",
                 [
                     "Form ground beef into patties; season with salt and pepper.",
                     "Grill or pan-sear until desired doneness.",

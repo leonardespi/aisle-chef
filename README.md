@@ -31,8 +31,7 @@ pip install -r requirements.txt
 Initialize the SQLite database:
 
 ```bash
-cd app
-python database.py
+python -m app.database
 # Creates backend/aisle_chef.db and seeds data
 cd ..
 ```
